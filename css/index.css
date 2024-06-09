@@ -1,0 +1,20 @@
+/* 캐러셀 크기 설정 */
+.carousel-inner {
+    width: auto;
+    height: 700px; /* 이미지 높이 변경 */
+}
+
+.carousel-item {
+    height: 100%;
+}
+
+.d-block {
+    height: 100%;
+}
+
+.box-map {
+    background-image: url(../images/bg-map.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
