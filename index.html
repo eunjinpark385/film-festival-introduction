@@ -18,67 +18,93 @@
 </head>
 
 <body>
-  <!-- 상단 네비게이션  -->
-  <nav class="navbar navbar-expand-lg bg-secondary" data-bs-theme="dark">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Navbar</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-link active" aria-current="page" href="#">메인</a>
-          <a class="nav-link" href="introduce.html">영화제 소개</a>
-          <a class="nav-link" href="comment.html">방명록</a>
+  <!-- Header -->
+  <header>
+    <!-- 상단 네비게이션  -->
+    <nav class="navbar navbar-expand-lg bg-secondary" data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="#">메인</a>
+            <a class="nav-link" href="introduce.html">영화제 소개</a>
+            <a class="nav-link" href="comment.html">방명록</a>
+          </div>
         </div>
       </div>
-    </div>
-  </nav>
+    </nav>
+    <!-- 상단 네비게이션 끝 -->
+  </header>
+  <!-- Header End -->
 
-  <!-- 배너 : 캐러셀 활용 -->
-  <div id="carouselIndicators" class="carousel slide bg-dark" data-bs-ride="carousel">
-    <!-- 배너 인디케이터 부분 -->
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="0" class="active btn-light"
-        aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="1" class="btn-light"
-        aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="2" class="btn-light"
-        aria-label="Slide 3"></button>
-    </div>
-    <!-- 배너 내용 -->
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="images/poster_BIFF.jpg" class="d-block mx-auto" alt="부산국제영화제 포스터">
+  <!-- Main -->
+  <main>
+    <!-- 캐러셀  -->
+    <div id="carouselIndicators" class="carousel slide bg-dark" data-bs-ride="carousel">
+      <!-- 캐러셀 인디케이터 -->
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="0" class="active btn-light"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="1" class="btn-light"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="2" class="btn-light"
+          aria-label="Slide 3"></button>
       </div>
-      <div class="carousel-item">
-        <img src="images/poster_CCFF.jpg" class="d-block mx-auto" alt="춘천영화제 포스터">
-      </div>
-      <div class="carousel-item">
-        <img src="images/poster_JIFF.jpg" class="d-block mx-auto" alt="전주국제영화제 포스터">
-      </div>
-    </div>
-    <!-- 배너 버튼 : 이전 & 다음 -->
-    <button class="carousel-control-prev btn btn-dark" type="button" data-bs-target="#carouselIndicators"
-      data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next btn btn-dark" type="button" data-bs-target="#carouselIndicators"
-      data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
+      <!-- 캐러셀 인디케이터 끝 -->
 
-  <div class="box-map mt-5">
+      <!-- 캐러셀 content -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/poster_BIFF.jpg" class="d-block mx-auto" alt="부산국제영화제 포스터">
+        </div>
+        <div class="carousel-item">
+          <img src="images/poster_CCFF.jpg" class="d-block mx-auto" alt="춘천영화제 포스터">
+        </div>
+        <div class="carousel-item">
+          <img src="images/poster_JIFF.jpg" class="d-block mx-auto" alt="전주국제영화제 포스터">
+        </div>
+      </div>
+      <!-- 캐러셀 content 끝 -->
+
+      <!-- 캐러셀 컨트롤 버튼 -->
+      <button class="carousel-control-prev btn btn-dark" type="button" data-bs-target="#carouselIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next btn btn-dark" type="button" data-bs-target="#carouselIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+      <!-- 캐러셀 컨트롤 버튼 끝 -->
+    </div>
+    <!-- 캐러셀 끝 -->
+
     <!-- 지도 -->
-    <h1 class="text-center">지역별 영화제</h1>
-    <div style="margin: 0 auto;" id="map"></div>
-    
-  </div>
+    <div class="box-map mt-5">
 
+      <h1 class="text-center">지역별 영화제</h1>
+      <div style="margin: 0 auto;" id="map"></div>
+    </div>
+    <!-- 지도 끝 -->
+  </main>
+  <!-- Main End -->
+
+  <!-- Footer -->
+  <footer class="bg-secondary p-3">
+    <p class="text-center text-white">서울여자대학교 웹페이지 저작 기초</p>
+    <p class="text-center text-white">
+      일어일문학과 2023110292 함혜원 <br>
+      소프트웨어융합학과 2020111385 박은진 <br>
+      데이터사이언스학과 2024111806 이유림
+    </p>
+  </footer>
+  <!-- Footer End -->
 
   <!-- Bootstrap 연결 -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
