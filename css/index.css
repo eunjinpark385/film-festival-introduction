@@ -1,7 +1,8 @@
-/* 캐러셀 크기 설정 */
+/* 캐러셀 설정 */
 .carousel-inner {
     width: auto;
-    height: 700px; /* 이미지 높이 변경 */
+    height: 500px;
+    /* 이미지 높이 변경 */
 }
 
 .carousel-item {
@@ -12,9 +13,145 @@
     height: 100%;
 }
 
-.box-map {
+/* 지도 설정 */
+.map-box {
     background-image: url(../images/bg-map.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position-x: right;
+}
+
+/* 지도 팝업 설정 */
+.tt_name_sm {
+    float: left;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.xmark_sm {
+    float: right;
+    display: inline;
+    cursor: pointer;
+    margin-top: 13px;
+    margin-right: 15px;
+    line-height: 0px;
+    width: 30px;
+    font-weight: bold;
+}
+
+.tt_sm {
+    border-radius: 5px;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, .5);
+    z-index: 1000000;
+    background-color: white;
+    padding: 7px;
+    opacity: 0.9;
+    color: black;
+    text-align: justify;
+}
+
+.tt_custom_sm {
+    margin: 5px;
+    margin-bottom: 20px;
+}
+
+.tt_mobile_sm {
+    margin: 5px;
+}
+
+.btn_simplemaps {
+    color: #ffffff;
+    text-decoration: none;
+    background: #2C3E50;
+    display: inline-block;
+    padding: 5px 5px;
+    margin: 0;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    line-height: 1.43;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid;
+    border-radius: 4px;
+}
+
+.btn_simplemaps:hover {
+    text-decoration: underline;
+}
+
+/* 캘린더 설정 */
+.calendar-title {
+    padding-left: 6rem;
+}
+
+#calendar {
+    max-width: 1100px;
+    margin: 40px auto;
+}
+
+:root {
+    --fc-small-font-size: .85em;
+    --fc-page-bg-color: #fff;
+    --fc-neutral-bg-color: rgba(208, 208, 208, 0.3);
+    --fc-neutral-text-color: #808080;
+    --fc-border-color: #ddd;
+
+    --fc-button-text-color: #fff;
+    --fc-button-bg-color: #2C3E50;
+    --fc-button-border-color: #2C3E50;
+    --fc-button-hover-bg-color: #1e2b37;
+    --fc-button-hover-border-color: #1a252f;
+    --fc-button-active-bg-color: #1a252f;
+    --fc-button-active-border-color: #151e27;
+
+    --fc-event-bg-color: #2C3E50;
+    --fc-event-border-color: #2C3E50;
+    --fc-event-text-color: #fff;
+    --fc-event-selected-overlay-color: rgba(0, 0, 0, 0.25);
+
+    --fc-more-link-bg-color: #d0d0d0;
+    --fc-more-link-text-color: inherit;
+
+    --fc-event-resizer-thickness: 8px;
+    --fc-event-resizer-dot-total-width: 8px;
+    --fc-event-resizer-dot-border-width: 1px;
+
+    --fc-non-business-color: rgba(215, 215, 215, 0.3);
+    --fc-bg-event-color: rgb(143, 223, 130);
+    --fc-bg-event-opacity: 0.3;
+    --fc-highlight-color: rgba(188, 232, 241, 0.3);
+    --fc-today-bg-color: rgba(255, 220, 40, 0.15);
+    --fc-now-indicator-color: red;
+}
+
+.fc-toolbar-title {
+    font-family: "Black Han Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #2C3E50;
+}
+
+.fc .fc-col-header-cell-cushion {
+    font-family: "Black Han Sans", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    color: #2C3E50;
+}
+
+.fc .fc-daygrid-day-number {
+    color: #2C3E50;
+    font-family: "Gowun Dodum", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
 }

@@ -1,5 +1,19 @@
 /* 초기화 */
 * {
     margin: 0;
-	padding: 0;
+    padding: 0;
+}
+
+/* 제목 폰트 */
+.black-han-sans-regular {
+    font-family: "Black Han Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* 본문 폰트 */
+.gowun-dodum-regular {
+    font-family: "Gowun Dodum", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
