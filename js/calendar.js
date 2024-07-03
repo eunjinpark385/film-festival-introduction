@@ -23,10 +23,22 @@ document.addEventListener('DOMContentLoaded', function () {
                 url: 'https://jeonjufest.kr/'
             },
             {
+                title: '춘천영화제',
+                start: '2024-06-20',
+                end: '2024-06-23',
+                url: 'http://ccff.or.kr/'
+            },
+            {
                 title: '부천국제판타스틱영화제',
                 start: '2024-07-04',
                 end: '2024-07-12',
                 url: 'https://www.bifan.kr/bifan/01_bifan.asp'
+            },
+            {
+                title: '청주국제단편영화제',
+                start: '2024-08-23',
+                end: '2024-08-25',
+                url: 'https://cjiff.co.kr/'
             },
             {
                 title: '서울독립영화제',

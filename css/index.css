@@ -2,6 +2,7 @@
 .carousel-inner {
     width: auto;
     height: 500px;
+    padding: 20px;
     /* 이미지 높이 변경 */
 }
 
@@ -90,6 +91,14 @@
 }
 
 /* 캘린더 설정 */
+.calendar-box {
+    background: url(../images/bg-calendar.png);
+    background-size: auto 85%;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-position-x: 20px;
+}
+
 .calendar-title {
     padding-left: 6rem;
 }

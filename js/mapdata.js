@@ -9,7 +9,7 @@ var simplemaps_countrymap_mapdata = {
     // State defaults
     state_description: "",
     state_color: "#ffffff",
-    state_hover_color: "#a1c488",
+    state_hover_color: "#2C3E50",
     state_url: "",
     border_size: 1.5,
     all_states_inactive: "no",
@@ -29,6 +29,7 @@ var simplemaps_countrymap_mapdata = {
     location_hover_border: 2.5,
     all_locations_inactive: "no",
     all_locations_hidden: "no",
+    location_pulse: "yse",
 
     // Label defaults
     label_color: "#a1c488",
@@ -216,6 +217,61 @@ var simplemaps_countrymap_mapdata = {
      <div class="tt_mobile_sm">
      <button class="btn_simplemaps gowun-dodum-regular">
      <a href="https://siff.kr/" target="_blank" style="text-decoration: none; color: #FFFFFF;">영화제 홈페이지로 이동</a>
+     </button>`
+    },
+    // 춘천 : 춘천영화제
+    "4": {
+      lat: "37.8813153",
+      lng: "127.7299707",
+      name: `<h4 class="black-han-sans-regular tt_name_sm">춘천영화제</h4>`,
+      description:
+        `<div class="tt_custom_sm">
+      <img src="/images/poster_CCFF.jpg" style="width: 40%;">
+      </div>
+      <div class="tt_sm gowun-dodum-regular">
+      춘천영화제는 춘천의 문화적 정체성을 드러내고 강원 지역을 대표하며 향후 국제영화제로 발돋움하기 위한 영화 축제입니다.
+      <br>춘천영화제는 이제는 세상을 떠난 한 명의 영화감독에서 비롯되었습니다. 
+      <br>고 이성규 감독(1963~2013)은 춘천 출신의 다큐멘터리 프로듀서이자 감독으로, 
+      왕성한 작품 활동과 함께 독립영화인의 권익을 위해 힘썼던 공익적인 인물이었습니다. 
+      그는 세상을 떠나기 전 “한국의 독립예술영화를 사랑해 달라”는 유지를 남겼고, 
+      1주기가 된 2014년 고 이성규 감독의 지인들이 모여 ‘한 사람으로 시작된 춘천다큐멘터리영화제’를 열었습니다.
+      <br>이처럼 춘천영화제는 지자체의 기획이 아닌 시민들의 자발적인 의지에 의해 시작된 영화제였습니다. 
+      이후 영화제는 2016년에 사단법인으로 등록하며 좀 더 안정적인 토대를 마련했고, 
+      지자체의 보조금을 받는 문화 축제로서 자리잡게 되었습니다. 
+      <br>2023년엔 10주년을 맞이해 재도약의 해를 맞이하며 ‘이성규 영화상’을 제정했고, 
+      춘천 및 강원 지역의 중요한 영화적 이벤트로 대중에게 다가가고 있습니다.
+      </div>
+     <div class="tt_mobile_sm">
+     <button class="btn_simplemaps gowun-dodum-regular">
+     <a href="http://ccff.or.kr/" target="_blank" style="text-decoration: none; color: #FFFFFF;">영화제 홈페이지로 이동</a>
+     </button>`
+    },
+    // 청주 : 청주국제단편영화제
+    "5": {
+      lat: "36.6424341",
+      lng: "127.4890319",
+      name: `<h4 class="black-han-sans-regular tt_name_sm">청주국제단편영화제</h4>`,
+      description:
+        `<div class="tt_custom_sm">
+      <img src="/images/poster_CJIFF.png" style="width: 40%;">
+      </div>
+      <div class="tt_sm gowun-dodum-regular">
+      청주 국제 단편영화제는 1999년 발족한 (사)한국영화인출연협회 청주지부 주최로 2004년 '청주시 단편영화제'란 이름으로 출발하였습니다.
+      <br>당시 주요 프로그램으로는 "국내 우수 단편영화 초청 상영회"와 미래의 영화 인재 양성을 목표로 하는 "청주시 청소년 영화제작교실"을 운영하였습니다.
+      이후 영화제의 명칭은 2006년 "청주시 디지털 단편영화제"로 개칭하여 디지털 시대에 발맞춘 변화를 시도했습니다.
+      <br>그리고 2013년에는 어일선 감독이 2대 회장으로 취임하면서 "청주시 국제단편영화제"로 다시 명칭을 변경하였습니다.
+      <br>
+      <br>
+      본 영화제가 국제단편영화제로서 도약하기 위한 본격적인 작업은 2019년 7월 김윤식 감독이 3대 회장으로 취임하면서 시작되었습니다.
+      그 서막은 "청주시민과 함께 점점 성장하는 영화제"라는 뜻의 "점, 점, 점"을 슬로건으로 내걸었던 2020년 제 17회 영화제에서 "111개국 2,807편"의 영화들이 접수되며 비약적인 성장의 신호탄을 올렸습니다.
+      또한 2021년 제 18회 CISFF에선 새로운 로고 변경을 진행하였고, "122개국, 4,050편"의 영화가 접수되어 외적 성장과 더불어 완연한 중부권 최대의 국제단편영화제로써 자리잡게 되었습니다.
+      <br>
+      <br>
+      아울러 2023년 제 20회 청주국제단편영화제는 미래를 위한 대대적인 조직개편과 성장 가능성을 넓히는 다각도의 심도있는 발전 방안이 모색되어 많은 해외 영화제 관계자들과의 유의미한 협력을 확인하는 한 해가 되었다.
+      </div>
+     <div class="tt_mobile_sm">
+     <button class="btn_simplemaps gowun-dodum-regular">
+     <a href="https://cjiff.co.kr/" target="_blank" style="text-decoration: none; color: #FFFFFF;">영화제 홈페이지로 이동</a>
      </button>`
     }
   },
